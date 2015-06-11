@@ -1,0 +1,29 @@
+pane	0	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	1	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	2	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	3	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	5	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	0	:/Users/markdoss/Documents/Curriculet/server	0	bash	:/bin/bash ./elasticstart.sh
+pane	curric	0	:elasticstart-redis-work	0	:#	1	:/Users/markdoss/Documents/Curriculet/server	1	redis-server	:redis-server *:6379
+pane	curric	0	:elasticstart-redis-work	0	:#	2	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	3	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	4	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	5	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	6	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	7	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	1	:server-console	0	:#	0	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails s
+pane	curric	1	:server-console	0	:#	1	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails c
+pane	curric	2	:vim	1	:*	0	:/Users/markdoss/Documents/Curriculet/server	1	vim	:vim
+pane	curric	3	:bash	0	:-	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+pane	curric	4	:psql	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	1	psql	:psql
+window	0	0	1	:*	cd7e,140x39,0,0,1
+window	1	0	1	:*	cd7f,140x39,0,0,2
+window	2	0	1	:*	cd80,140x39,0,0,3
+window	3	0	1	:*	cd81,140x39,0,0,4
+window	5	0	1	:*	e6f3,140x39,0,0,81
+window	curric	0	0	:#	b222,140x39,0,0{66x39,0,0[66x18,0,0,5,66x20,0,19,6],73x39,67,0[73x5,67,0,7,73x6,67,6,8,73x5,67,13,9,73x5,67,19,10,73x5,67,25,11,73x8,67,31,12]}
+window	curric	1	0	:#	a16f,255x61,0,0{125x61,0,0,13,129x61,126,0,14}
+window	curric	2	1	:*	5b64,255x61,0,0,15
+window	curric	3	0	:-	ade0,255x61,0,0,101
+window	curric	4	0	: 	5b69,255x61,0,0,96
+state	curric	curric

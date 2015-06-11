@@ -1,0 +1,12 @@
+pane	curric	0	:elasticstart-redis-work	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	0	bash	:/bin/bash ./elasticstart.sh
+pane	curric	0	:elasticstart-redis-work	0	: 	1	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	0	:elasticstart-redis-work	0	: 	2	:/Users/markdoss/Documents/Curriculet/server	1	redis-cli	:redis-cli
+pane	curric	1	:server-console	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:/Users/markdoss/.rbenv/versions/2.1.2/bin/ruby script/rails s
+pane	curric	1	:server-console	0	: 	1	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:/Users/markdoss/.rbenv/versions/2.1.2/bin/ruby script/rails c
+pane	curric	2	:vim	0	:-	0	:/Users/markdoss/Documents/Curriculet/server	1	vim	:vim .
+pane	curric	3	:bash	1	:*	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+window	curric	0	0	: 	0511,204x48,0,0{102x48,0,0[102x24,0,0,0,102x23,0,25,2],101x48,103,0,1}
+window	curric	1	0	: 	4284,204x48,0,0{102x48,0,0,3,101x48,103,0,4}
+window	curric	2	0	:-	cca6,204x48,0,0,9
+window	curric	3	1	:*	cca3,204x48,0,0,6
+state	curric	

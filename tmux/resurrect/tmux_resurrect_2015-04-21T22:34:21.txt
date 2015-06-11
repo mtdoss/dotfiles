@@ -1,0 +1,32 @@
+pane	0	0	:bash	1	:!*	0	:/Users/markdoss	1	bash	:
+pane	1	0	:bash	1	:!*	0	:/Users/markdoss	1	bash	:
+pane	2	0	:bash	1	:!*	0	:/Users/markdoss	1	bash	:
+pane	3	0	:bash	1	:!*	0	:/Users/markdoss	1	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#!	0	:/Users/markdoss/Documents/Curriculet/server	0	bash	:/bin/bash ./elasticstart.sh
+pane	curric	0	:elasticstart-redis-work	0	:#!	1	:/Users/markdoss/Documents/Curriculet/server	0	redis-server	:redis-server *:6379
+pane	curric	0	:elasticstart-redis-work	0	:#!	2	:/Users/markdoss/Documents/Curriculet/server	0	redis-cli	:redis-cli
+pane	curric	0	:elasticstart-redis-work	0	:#!	3	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#!	4	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	0	:elasticstart-redis-work	0	:#!	5	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	0	:elasticstart-redis-work	0	:#!	6	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	0	:elasticstart-redis-work	0	:#!	7	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	0	:elasticstart-redis-work	0	:#!	8	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	1	:server-console	0	:-	0	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:/Users/markdoss/.rbenv/versions/2.1.2/bin/ruby script/rails s
+pane	curric	1	:server-console	0	:-	1	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:/Users/markdoss/.rbenv/versions/2.1.2/bin/ruby script/rails c
+pane	curric	2	:vim	1	:*	0	:/Users/markdoss/Documents/Curriculet/server	1	vim	:vim
+pane	curric	3	:bash	0	:#!	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+pane	curric	4	:bash	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+pane	curric	5	:prod-console	0	:#!	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+pane	curric	6	:bash	0	:#!	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+window	0	0	1	:!*	cd7d,140x39,0,0,0
+window	1	0	1	:!*	cd7e,140x39,0,0,1
+window	2	0	1	:!*	cd7f,140x39,0,0,2
+window	3	0	1	:!*	cd80,140x39,0,0,3
+window	curric	0	0	:#!	d5c1,204x48,0,0{98x48,0,0[98x23,0,0,4,98x24,0,24,5],105x48,99,0[105x10,99,0,6,105x7,99,11,7,105x8,99,19,8,105x7,99,28,9,105x5,99,36,10,105x3,99,42,11,105x2,99,46,30]}
+window	curric	1	0	:-	a2d1,204x48,0,0{99x48,0,0,12,104x48,100,0,13}
+window	curric	2	1	:*	6683,204x48,0,0,14
+window	curric	3	0	:#!	6684,204x48,0,0,15
+window	curric	4	0	: 	6685,204x48,0,0,16
+window	curric	5	0	:#!	66f6,140x39,0,0,17
+window	curric	6	0	:#!	e683,204x48,0,0,24
+state	curric	curric

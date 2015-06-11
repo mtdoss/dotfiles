@@ -1,0 +1,38 @@
+pane	0	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	1	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	2	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	3	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	5	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	6	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	7	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	8	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	9	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	0	:/Users/markdoss/Documents/Curriculet/server	0	bash	:/bin/bash ./elasticstart.sh
+pane	curric	0	:elasticstart-redis-work	0	:#	1	:/Users/markdoss/Documents/Curriculet/server	0	redis-server	:redis-server *:6379
+pane	curric	0	:elasticstart-redis-work	0	:#	2	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby /Users/markdoss/.rbenv/versions/2.2.1/bin/rake dispatcher:work
+pane	curric	0	:elasticstart-redis-work	0	:#	3	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	4	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	0	:elasticstart-redis-work	0	:#	5	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	6	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	1	:server-console	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails s
+pane	curric	1	:server-console	0	: 	1	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails c
+pane	curric	2	:bash	0	:-	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+pane	curric	3	:bash	1	:*	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+pane	curric	4	:bash	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+pane	curric	5	:bash	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+window	0	0	1	:*	b8de,252x62,0,0,1
+window	1	0	1	:*	b8df,252x62,0,0,2
+window	2	0	1	:*	b8e0,252x62,0,0,3
+window	3	0	1	:*	b8e1,252x62,0,0,4
+window	5	0	1	:*	b8e2,252x62,0,0,5
+window	6	0	1	:*	b8e3,252x62,0,0,6
+window	7	0	1	:*	b8e4,252x62,0,0,7
+window	8	0	1	:*	b8e5,252x62,0,0,8
+window	9	0	1	:*	b8e6,252x62,0,0,9
+window	curric	0	0	:#	1f83,255x64,0,0{124x64,0,0[124x32,0,0,10,124x31,0,33,11],130x64,125,0[130x11,125,0,12,130x24,125,12,13,130x11,125,37,32,130x7,125,49,33,130x7,125,57,34]}
+window	curric	1	0	: 	094d,255x64,0,0{126x64,0,0,18,128x64,127,0,19}
+window	curric	2	0	:-	e169,255x64,0,0,68
+window	curric	3	1	:*	e167,255x64,0,0,85
+window	curric	4	0	: 	b0e9,255x64,0,0,167
+window	curric	5	0	: 	b0eb,255x64,0,0,169
+state	curric	curric

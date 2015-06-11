@@ -1,0 +1,500 @@
+for i in *.epub; do isbn="${i%.*}"; /Users/markdoss/Documents/Curriculet/server/script/import-book mtdoss@gmail.com "/Users/markdoss/Documents/Curriculet/importing/RH/"$isbn".epub" "/Users/markdoss/Documents/Curriculet/importing/RH/"$isbn".jpg"; done
+for i in *.epub; do isbn="${i%.*}"; /Users/markdoss/Documents/Curriculet/server/script/import-book mtdoss@gmail.com "/Users/markdoss/Documents/Curriculet/importing/RH/"$isbn".epub" "/Users/markdoss/Documents/Curriculet/importing/RH/"$isbn".jpg"; done
+for i in *.epub; do isbn="${i%.*}"; /Users/markdoss/Documents/Curriculet/server/script/import-book mtdoss@gmail.com "/Users/markdoss/Documents/Curriculet/importing/RH/"$isbn".epub" "/Users/markdoss/Documents/Curriculet/importing/RH/"$isbn".jpg"; done
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:9.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:9.0'
+cd ..
+touch temp_script
+vim temp_script 
+mv temp_script temp_script.rb
+vim temp_script.rb 
+git co master 
+git status
+git stash
+git co master 
+vim
+git pull
+git co master 
+vim
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:7.0'
+history -r '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'; clear
+git status
+git add -A
+git commit -m "refactored book_importer"
+git mv spec/tasks/create_product_mappings_with_csv_info_spec.rb spec/services/store/book_product_info_importer_spec.rb
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+rake
+rake
+ -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+rake
+rake
+rake
+rm tmp/fixture_builder.yml 
+rake
+rake
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+rake
+rake
+./script/import-book
+ls
+cd script/
+cd ..
+git status
+git status
+git add -A
+git commit -m "moving everything to one file"
+chmod +wx script/create_csv_with_book_info 
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+./script/import-book 
+./script/import-book 
+./script/import-book 
+./script/import-book 
+./script/import-book 
+./script/import-book 
+./script/import-book -u mtdoss@gmail.com -f https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list -d ../importing/SS/
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+gem install optparse
+traceroute rubygems.org
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_price_list" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+./script/import-book -u "mtdoss@gmail.com" -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "../importing/SS/"
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/s_and_s_on_ftp" -d "./book_info.csv"
+./script/create_csv_with_book_info -f "https://curriculet-temp-uploads.s3.amazonaws.com/rh-books" -d "./book_info.csv"
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+git status
+rm book_info.csv 
+rm script/create_csv_with_book_info 
+git status
+git add -A
+git commit -m "script should be working, not tested"
+git status
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+./script/import-book -u mtdoss@gmail.com -f https://curriculet-temp-uploads.s3.amazonaws.com/rh-books
+./script/import-book -u mtdoss@gmail.com -f https://curriculet-temp-uploads.s3.amazonaws.com/rh-books -d /Users/markdoss/Documents/Curriculet/importing/RH -e /Users/markdoss/Documents/Curriculet/importing/errors.csv
+./script/import-book -u mtdoss@gmail.com -f https://curriculet-temp-uploads.s3.amazonaws.com/rh-books -d /Users/markdoss/Documents/Curriculet/importing/RH -e /Users/markdoss/Documents/Curriculet/importing/errors.csv
+./script/import-book -u mtdoss@gmail.com -f https://curriculet-temp-uploads.s3.amazonaws.com/rh-books -d /Users/markdoss/Documents/Curriculet/importing/RH/ -e /Users/markdoss/Documents/Curriculet/importing/errors.csv
+./script/import-book -u mtdoss@gmail.com -f https://curriculet-temp-uploads.s3.amazonaws.com/rh-books -d /Users/markdoss/Documents/Curriculet/importing/RH/ -e /Users/markdoss/Documents/Curriculet/importing/errors.csv
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+cd ~/.heroku/
+ls
+cd usage/
+ls
+cd ..
+vim
+git confi
+git config
+heroku config
+vim ~/.gitconfig 
+vim .git/config 
+ls
+vim Rakefile 
+vim
+history -r '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'; clear
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+heroku run rails console -a cuprod
+cat ~/.bash_history 
+heroku run -a cuprod
+heroku run rails c
+heroku run rails c -a cuprod
+heroku run rails c -a cuprod
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+heroku run rails c -a cuprod
+heroku run rails c -a cuprod
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:5.0'
+./script/download-ftp-books -h
+./script/download-ftp-books --help
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:4.0'
+history -r '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'; clear
+rake
+bundle exec rspec spec/services/store/book_product_info_importer_spec.rb 
+bundle exec rspec spec/services/store/book_product_info_importer_spec.rb 
+ -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+bundle exec rspec spec/services/store/book_product_info_importer_spec.rb 
+bundle exec rspec spec/services/store/book_product_info_importer_spec.rb 
+bundle exec rspec spec/services/store/book_product_info_importer_spec.rb 
+bundle exec rspec spec/services/store/book_product_info_importer_spec.rb 
+bundle exec rspec spec/services/store/book_product_info_importer_spec.rb 
+bundle exec rspec spec/services/store/book_product_info_importer_spec.rb 
+bundle exec rspec spec/services/store/book_product_info_importer_spec.rb 
+bundle exec rspec spec/services/store/book_product_info_importer_spec.rb 
+rake
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+git status
+git add -A
+git commit -m "my specs passing, other random ones failing"
+git diff md-importing-rebase
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+./script/import-book 
+./script/import-book 
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+git mv lib/gs/async/book_importer.rb lib/gs/async/book_processor.rb
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+git status
+git diff
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+rm spec/services/store/book_product_info_importer_spec.rb 
+git status
+git co master 
+git pull
+git co md-importing-rebase-2
+git co -b md-importing-rebase-3
+git rebase -i master 
+git diff master 
+git status
+git add -A
+git commit -m "a few more changes"
+git rebase -i master 
+git status
+git add -A
+git commit -m "renamed importer"
+git rebase -i master 
+git status
+git diff
+git status
+git add -A
+git commit -m "should be ready"
+git rebase -i master 
+git status
+git co master 
+git pull
+git co md-importing-rebase-3
+git push origin md-importing-rebase-3:md-importing --force
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+git stash
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+vim ~/.vimrc 
+vim ~/.vimrc 
+vim ~/.vimrc 
+vim ~/.vimrc 
+vim ~/.vimrc 
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+git diff
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+git diff
+git status
+rm lib/tasks/create_products.rake 
+git status
+git add -A
+git commit -m "fix bug where rejoining a class doesnt recreate sha"
+git co master 
+gitp ull
+git pull
+git co md-rejoin-class-sha 
+git rebase -i master 
+git status
+git add -A
+git commit -m "added specs"
+git status
+git co mat
+git co master 
+git pull
+git co md-rejoin-class-sha 
+git rebase -i master 
+git push origin md-rejoin-class-sha --force
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+git co master 
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+rails generate model DailyReadingMetric user_id:int num_scas_completed:int num_words_read:int time_read:int
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+rails generate model PeriodReadingMetric user_id:int start_date:datetime end_date:datetime num_scas_completed:int num_words_read:int time_read:int name:string
+rails generate model ActivityStreak user_id:int current_start:datetime current_end:datetime current_length:int longest_start:datetime longest_end:datetime longest_length:int
+git status
+rake db:migrate
+git status
+rake db:migrate
+git add -A
+git commit -m "added models, migrations"
+git status
+git status
+git add -A
+git commit -m "added associations"
+git co master 
+git stash
+git co EPIC-summer-reading 
+git branch -D md-data-aggregation 
+git co -b md-data-aggregation
+git status
+rails generate model DailyReadingMetric student_id:integer num_scas_completed:integer num_words_read:integer time_read:integer
+rails generate model -T PeriodReadingMetric student_id:integer start_date:datetime end_date:datetime num_scas_completed:integer num_words_read:integer time_read:integer name:string
+rails generate model PeriodReadingMetric student_id:integer start_date:datetime end_date:datetime num_scas_completed:integer num_words_read:integer time_read:integer name:string
+rails generate model ActivityStreak student_id:integer current_start:datetime current_end:datetime current_length:integer longest_start:datetime longest_end:datetime longest_length:integer
+rake db:migrate
+rake db:migrate
+rake db:migrate
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+git status
+git status
+git add -A
+git commit -m "added models, associations"
+git status
+git status
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+git branch
+git co md-data-aggregation 
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+git status
+git add -A
+git commit -m "a number of changes, including changes to words_read"
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+git status
+git add -A
+git commit -m "recalc activity streak looking good"
+bundle exec rspec spec/services/students/recalc_activity_streak_spec.rb 
+bundle exec rspec spec/services/students/recalc_activity_streak_spec.rb 
+bundle exec rspec spec/services/students/recalc_activity_streak_spec.rb 
+rake db:migrate
+bundle exec rspec spec/services/students/recalc_activity_streak_spec.rb 
+bundle exec rspec spec/services/students/recalc_activity_streak_spec.rb 
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
+rake db:test:prepare
+ history -w '/Users/markdoss/.tmux/resurrect/bash_history-curric:3.0'
