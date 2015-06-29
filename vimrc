@@ -364,7 +364,7 @@ if &diff
   colorscheme github
   map q :wq<CR><C-w>q
   nnoremap n ]czz
-  nnoremap m [czz
+  nnoremap N [czz
   set nocursorline
 endif
 
@@ -389,3 +389,11 @@ map <leader>bb jkggO<BS><BS>require 'byebug'jk<C-o>
 
 map <leader>md :LivedownPreview<CR>
 map <leader>nmd :LivedownKill
+
+map <C-q> <C-y>
+
+" comma swap
+nnoremap <leader>cs dWwi, <ESC>pxhx
+" format text
+nnoremap Q gq
+nnoremap QQ gqq
