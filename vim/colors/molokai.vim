@@ -209,7 +209,8 @@ if &t_Co > 255
    " My change to statusline
    " hi StatusLine      ctermfg=238 ctermbg=253
    hi StatusLineNC    ctermbg=255 ctermfg=39
-   hi StatusLine      ctermbg=255 ctermfg=39
+   " hi StatusLine      ctermbg=255 ctermfg=39
+   hi StatusLine      ctermbg=39 ctermfg=255
    hi StorageClass    ctermfg=208
    hi Structure       ctermfg=81
    hi Tag             ctermfg=161

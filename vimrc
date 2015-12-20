@@ -82,6 +82,7 @@ Plugin 'shime/vim-livedown'
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'tpope/vim-vividchalk'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'chriskempson/base16-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -99,7 +100,25 @@ filetype plugin indent on    " required
 
 syntax enable   " enable syntax processing
 set background=dark
-colorscheme badwolf
+" let g:solarized_termcolors=256
+let base16colorspace=256
+colorscheme molokai
+" colorscheme base16-default
+" colorscheme solarized
+" colorscheme badwolf
+
+" COLORS
+" badwolf's syntastic highlighting
+" Cap is warning, Bad is error
+hi SpellCap cterm=undercurl ctermfg=10 ctermbg=NONE
+hi SpellBad cterm=undercurl ctermfg=52 ctermbg=NONE
+" completion menu
+hi Pmenu ctermbg=236
+hi ErrorMsg ctermfg=196 ctermbg=NONE
+" visual mode highlight color
+hi Visual ctermbg=238
+" folds aren't annoying
+hi Folded ctermbg=NONE
 
 set tabstop=2   " number of visual spaces per tab
 
@@ -116,6 +135,7 @@ set colorcolumn=80  "set ruler
 set showcmd  " show command in bottom bar
 
 set cursorline " highlight current line
+highlight CursorLine ctermbg=235
 
 filetype indent on " load filetype-specific indent files (don't have these yet)
 
@@ -132,6 +152,8 @@ set incsearch  " search as characters are entered
 set hlsearch  " highlight matches
 
 let mapleader=" "
+
+" darkgravel     = ['242321', 235]
 
 "turn off search highlight with ,<space>
 nnoremap <leader>, :nohlsearch<CR>
@@ -166,8 +188,13 @@ set statusline=%F%m%r%h%w\ %{fugitive#statusline()}\ [%l,%c]\ [%L,%p%%]
 if version >= 700
   au InsertEnter * hi StatusLine ctermbg=211 ctermfg=white
   au InsertLeave * hi StatusLine ctermbg=39 ctermfg=white
+  au BufEnter * hi StatusLine ctermbg=39 ctermfg=white
 endif
 
+" if version >= 700
+"   au InsertEnter * hi StatusLine ctermfg=211 ctermbg=white
+"   au InsertLeave * hi StatusLine ctermfg=39 ctermbg=white
+" endif
 " jk is escape
 inoremap jk <esc>
 
@@ -397,3 +424,6 @@ nnoremap <leader>cs dWwi, <ESC>pxhx
 " format text
 nnoremap Q gq
 nnoremap QQ gqq
+
+" Fugitive
+map <leader>gb :Gblame<CR>

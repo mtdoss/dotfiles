@@ -1,0 +1,46 @@
+pane	0	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	1	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	10	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	11	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	12	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	13	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	2	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	3	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	5	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	6	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	7	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	8	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	9	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	0	:/Users/markdoss/Documents/Curriculet/server	0	bash	:/bin/bash ./elasticstart.sh
+pane	curric	0	:elasticstart-redis-work	0	:#	1	:/Users/markdoss/Documents/Curriculet/server	0	redis-server	:redis-server *:6379
+pane	curric	0	:elasticstart-redis-work	0	:#	2	:/Users/markdoss/Documents/Curriculet/ada	0	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	0	:elasticstart-redis-work	0	:#	3	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	0	:elasticstart-redis-work	0	:#	4	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	5	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	1	:server-console	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails s
+pane	curric	1	:server-console	0	: 	1	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails c
+pane	curric	2	:ada-server-console	0	: 	0	:/Users/markdoss/Documents/Curriculet/ada	0	bash	:
+pane	curric	2	:ada-server-console	0	: 	1	:/Users/markdoss/Documents/Curriculet/ada	1	bash	:
+pane	curric	3	:vim	1	:*	0	:/Users/markdoss/Documents/Curriculet/server	1	vim	:vim
+pane	curric	4	:bash	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+pane	curric	5	:node	0	:-	0	:/Users/markdoss/Documents/Curriculet/server	1	node	:node-v4.1.1-darwin-x64/bin/node -e ^J^I^I'use strict';^J^I^Ivar moduleName = 'heroku-run';^J^I^Ivar moduleVersion = '2.7.0';^J^I^Ivar topic = 'run';^J^I^Ivar command = '';^J^I^Ivar ctx = {"topic":{"name":"run","description":"run a one-off process inside a Heroku dyno","hidden":false},"command":{"topic":"run","plugin":"heroku-run","usage":"","description":"run a one-off process inside a heroku dyno","default":false,"help":"run a one-off process inside a Heroku dyno\n\nExamples:\n\n  $ heroku run bash\n  Running bash on app... up, run.1\n  ~ $\n\n  $ heroku run -s hobby -- myscript.sh -a arg1 -s arg2\n  Running myscript.sh -a arg1 -s arg2 on app... up, run.1","fullHelp":"","hidden":false,"needsApp":true,"wantsApp":false,"needsAuth":true,"variableArgs":true,"args":null,"flags":[{"name":"size","char":"s","description":"dyno size","hasValue":true,"hidden":false,"required":false},{"name":"exit-code","char":"","description":"passthrough the exit code of the remote command","hasValue":false,"hidden":false,"required":false},{"name":"env","char":"","description":"environment variables to set (use ';' to split multiple vars)","hasValue":true,"hidden":false,"required":false}]},"app":"cuprod","args":["rails","c"],"flags":{},"cwd":"/Users/markdoss/Documents/Curriculet/server","herokuDir":"/Users/markdoss/.heroku","debug":false,"version":"heroku-cli/4.24.4-d580541 (amd64-darwin) go1.5.1","dev":false,"supportsColor":true,"apiToken":"2516069f-1d3c-4819-b60a-efcd6e8c1d20","apiHost":"api.heroku.com","apiUrl":"https://api.heroku.com","gitHost":"heroku.com","httpGitHost":"git.heroku.com","auth":{"password":"2516069f-1d3c-4819-b60a-efcd6e8c1d20"}};^J^I^Ictx.version = ctx.version + ' ' + moduleName + '/' + moduleVersion + ' node-' + process.version;^J^I^Ivar logPath = "/Users/markdoss/.heroku/error.log";^J^I^Iprocess.chdir(ctx.cwd);^J^I^Ifunction repair (name) {^J^I^I^Iconsole.error('Attempting to repair ' + name + '...');^J^I^I^Irequire('child_process')^J^I^I^I.spawnSync('heroku', ['plugins:install', name],^J^I^I^I{stdio: [0,1,2]});^J^I^I^Iconsole.error('Repair complete. Try running your command again.');^J^I^I}^J^I^Iif (!ctx.dev) {^J^I^I^Iprocess.on('uncaughtException', function (err) {^J^I^I^I^Iconsole.error(' !   Error in ' + moduleName + ':')^J^I^I^I^Iif (err.message) {^J^I^I^I^I^Iconsole.error(' !   ' + err.message);^J^I^I^I^I^Iif (err.message.indexOf('Cannot find module') != -1) {^J^I^I^I^I^I^Irepair(moduleName);^J^I^I^I^I^I^Iprocess.exit(1);^J^I^I^I^I^I}^J^I^I^I^I} else {^J^I^I^I^I^Iconsole.error(' !   ' + err);^J^I^I^I^I}^J^I^I^I^Iif (err.stack) {^J^I^I^I^I^Ivar fs = require('fs');^J^I^I^I^I^Ivar log = function (line) {^J^I^I^I^I^I^Ivar d = new Date().toISOString()^J^I^I^I^I^I^I.replace(/T/, ' ')^J^I^I^I^I^I^I.replace(/-/g, '/')^J^I^I^I^I^I^I.replace(/\..+/, '');^J^I^I^I^I^I^Ifs.appendFileSync(logPath, d + ' ' + line + '\n');^J^I^I^I^I^I}^J^I^I^I^I^Ilog('Error during ' + topic + ':' + command);^J^I^I^I^I^Ilog(err.stack);^J^I^I^I^I^Iconsole.error(' !   See ' + logPath + ' for more info.');^J^I^I^I^I}^J^I^I^I^Iprocess.exit(1);^J^I^I^I});^J^I^I}^J^I^Iif (command === '') { command = null }^J^I^Ivar module = require(moduleName);^J^I^Ivar cmd = module.commands.filter(function (c) {^J^I^I^Ireturn c.topic === topic && c.command == command;^J^I^I})[0];^J^I^Icmd.run(ctx);
+window	0	0	1	:*	c13d,362x83,0,0,0
+window	1	0	1	:*	c13e,362x83,0,0,1
+window	10	0	1	:*	c13f,362x83,0,0,2
+window	11	0	1	:*	c140,362x83,0,0,3
+window	12	0	1	:*	c141,362x83,0,0,4
+window	13	0	1	:*	e6f5,140x39,0,0,45
+window	2	0	1	:*	c142,362x83,0,0,5
+window	3	0	1	:*	c143,362x83,0,0,6
+window	5	0	1	:*	c144,362x83,0,0,7
+window	6	0	1	:*	c145,362x83,0,0,8
+window	7	0	1	:*	c146,362x83,0,0,9
+window	8	0	1	:*	60cf,362x83,0,0,10
+window	9	0	1	:*	60d0,362x83,0,0,11
+window	curric	0	0	:#	ca26,255x64,0,0{125x64,0,0[125x32,0,0,12,125x31,0,33,13],129x64,126,0[129x22,126,0,14,129x12,126,23,15,129x12,126,36,16,129x15,126,49,17]}
+window	curric	1	0	: 	094d,255x64,0,0{126x64,0,0,18,128x64,127,0,19}
+window	curric	2	0	: 	a2b0,140x39,0,0{70x39,0,0,20,69x39,71,0,21}
+window	curric	3	1	:*	e161,255x64,0,0,22
+window	curric	4	0	: 	e164,255x64,0,0,25
+window	curric	5	0	:-	6162,255x64,0,0,70
+state	curric	9
