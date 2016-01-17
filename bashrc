@@ -12,6 +12,11 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 bind -r '\C-s' # ??
 stty -ixon
 
+
+# Base16 Shell
+BASE16_SHELL="$HOME/.config/base16-shell/base16-default.dark.sh"
+[[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
+
 # allows for git completion
 # source: http://code-worrier.com/blog/autocomplete-git/
 # (you need to have the git completion script in home directory)
@@ -35,12 +40,23 @@ alias emacs="/usr/local/Cellar/emacs/24.5/Emacs.app/Contents/MacOS/Emacs -nw"
 # export PROJECT_HOME=$HOME/Documents/AppAcademy
 # source /usr/local/bin/virtualenvwrapper.sh
 
+# Get rid of 'too many files are open' error
+ulimit -S -n 4096
+
 HISTCONTROL=ignoreboth
 alias gs='git status'
 alias gad='git add -A'
 alias gb='git branch '
 alias gc='git commit'
 alias gd='git diff'
+alias gp='git pull'
 alias gdm='git diff master'
+alias gdmn='git diff master --name-only'
 alias gco='git checkout '
+alias gcom='git checkout master'
+alias grim='git rebase -i master'
+alias hcuprod='heroku run rails c -a cuprod'
+alias hcustag='heroku run rails c -a custag'
+alias hadaprod='heroku run rails c -a adaprod'
+alias hadastag='heroku run rails c -a adastag'
 alias rrw='echo -ne "\033]11;#800000\007"; rake resque:work'

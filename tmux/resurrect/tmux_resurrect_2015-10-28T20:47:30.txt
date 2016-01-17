@@ -1,0 +1,56 @@
+pane	0	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	1	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	10	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	11	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	12	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	13	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	14	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	15	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	16	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	2	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	3	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	5	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	6	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	7	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	8	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	9	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	0	:/Users/markdoss/Documents/Curriculet/server	0	bash	:/bin/bash ./elasticstart.sh
+pane	curric	0	:elasticstart-redis-work	0	:#	1	:/Users/markdoss/Documents/Curriculet/server	0	redis-server	:redis-server *:6379
+pane	curric	0	:elasticstart-redis-work	0	:#	2	:/Users/markdoss/Documents/Curriculet/ada	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	3	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	0	:elasticstart-redis-work	0	:#	4	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	:#	5	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	1	:server-console	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails s
+pane	curric	1	:server-console	0	: 	1	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails c
+pane	curric	2	:ada-server-console	0	: 	0	:/Users/markdoss/Documents/Curriculet/ada	0	bash	:
+pane	curric	2	:ada-server-console	0	: 	1	:/Users/markdoss/Documents/Curriculet/ada	1	bash	:
+pane	curric	3	:vim	1	:*	0	:/Users/markdoss/Documents/Curriculet/server	1	vim	:vim
+pane	curric	4	:ruby	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+pane	curric	5	:vim	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	1	vim	:vim
+pane	curric	6	:bash	0	:#-	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+pane	curric	9	:vim	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	1	vim	:vim
+window	0	0	1	:*	bddd,254x63,0,0,0
+window	1	0	1	:*	bdde,254x63,0,0,1
+window	10	0	1	:*	bddf,254x63,0,0,2
+window	11	0	1	:*	bde0,254x63,0,0,3
+window	12	0	1	:*	bde1,254x63,0,0,4
+window	13	0	1	:*	bde2,254x63,0,0,5
+window	14	0	1	:*	bde3,254x63,0,0,6
+window	15	0	1	:*	bde4,254x63,0,0,7
+window	16	0	1	:*	bde5,254x63,0,0,8
+window	2	0	1	:*	bde6,254x63,0,0,9
+window	3	0	1	:*	5f1f,254x63,0,0,10
+window	5	0	1	:*	5f20,254x63,0,0,11
+window	6	0	1	:*	5f21,254x63,0,0,12
+window	7	0	1	:*	5f22,254x63,0,0,13
+window	8	0	1	:*	5f23,254x63,0,0,14
+window	9	0	1	:*	5f24,254x63,0,0,15
+window	curric	0	0	:#	819a,255x64,0,0{124x64,0,0[124x31,0,0,16,124x32,0,32,17],130x64,125,0[130x21,125,0,18,130x12,125,22,19,130x12,125,35,20,130x16,125,48,21]}
+window	curric	1	0	: 	8947,255x64,0,0{126x64,0,0,22,128x64,127,0,23}
+window	curric	2	0	: 	6819,254x63,0,0{127x63,0,0,24,126x63,128,0,25}
+window	curric	3	1	:*	de55,178x43,0,0,26
+window	curric	4	0	: 	de56,178x43,0,0,27
+window	curric	5	0	: 	5e5a,178x43,0,0,97
+window	curric	6	0	:#-	5e5b,178x43,0,0,98
+window	curric	9	0	: 	5e58,178x43,0,0,95
+state	curric	9

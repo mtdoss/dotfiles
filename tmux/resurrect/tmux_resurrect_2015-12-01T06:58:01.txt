@@ -1,0 +1,65 @@
+pane	0	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	1	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	10	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	11	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	12	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	13	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	14	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	15	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	16	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	18	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	2	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	3	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	5	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	6	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	7	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	8	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	9	0	:bash	1	:*	0	:/Users/markdoss	1	bash	:
+pane	curric	0	:elasticstart-redis-work	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	0	bash	:/bin/bash ./elasticstart.sh
+pane	curric	0	:elasticstart-redis-work	0	: 	1	:/Users/markdoss/Documents/Curriculet/server	0	redis-server	:redis-server *:6379
+pane	curric	0	:elasticstart-redis-work	0	: 	2	:/Users/markdoss/Documents/Curriculet/ada	1	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	0	:elasticstart-redis-work	0	: 	3	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:resque-1.25.2: Waiting for *  
+pane	curric	0	:elasticstart-redis-work	0	: 	4	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	0	:elasticstart-redis-work	0	: 	5	:/Users/markdoss/Documents/Curriculet/server	0	bash	:
+pane	curric	1	:server-console	0	:#	0	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails s
+pane	curric	1	:server-console	0	:#	1	:/Users/markdoss/Documents/Curriculet/server	0	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails c
+pane	curric	2	:ada-server-console	0	: 	0	:/Users/markdoss/Documents/Curriculet/ada	0	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails s
+pane	curric	2	:ada-server-console	0	: 	1	:/Users/markdoss/Documents/Curriculet/ada	1	ruby	:/Users/markdoss/.rbenv/versions/2.2.1/bin/ruby bin/rails c
+pane	curric	3	:bash	1	:*	0	:/Users/markdoss/Documents/Curriculet/server	1	vim	:vim
+pane	curric	4	:bash	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	1	bash	:
+pane	curric	5	:bash	0	:#	0	:/Users/markdoss/Documents/Curriculet/server	1	ruby	:ruby script/upload_nces_schools.rb
+tee /dev/stderr
+grep Updating or importing
+grep -Eo [0-9]{5}
+pane	curric	6	:bash	0	: 	0	:/Users/markdoss/Documents/Curriculet	1	bash	:
+pane	curric	7	:cuprod-console	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	1	node	:heroku run rails c -a cuprod  
+pane	curric	8	:vim	0	: 	0	:/Users/markdoss/Documents/Curriculet/server	1	vim	:vim
+pane	curric	9	:vim	0	:-	0	:/Users/markdoss/Documents/Curriculet/server	1	vim	:vim
+window	0	0	1	:*	c25e,255x64,0,0,1
+window	1	0	1	:*	c25f,255x64,0,0,2
+window	10	0	1	:*	c260,255x64,0,0,3
+window	11	0	1	:*	c261,255x64,0,0,4
+window	12	0	1	:*	c262,255x64,0,0,5
+window	13	0	1	:*	c263,255x64,0,0,6
+window	14	0	1	:*	c264,255x64,0,0,7
+window	15	0	1	:*	c265,255x64,0,0,8
+window	16	0	1	:*	c266,255x64,0,0,9
+window	18	0	1	:*	615f,255x64,0,0,10
+window	2	0	1	:*	6160,255x64,0,0,11
+window	3	0	1	:*	6161,255x64,0,0,12
+window	5	0	1	:*	6162,255x64,0,0,13
+window	6	0	1	:*	6163,255x64,0,0,14
+window	7	0	1	:*	6164,255x64,0,0,15
+window	8	0	1	:*	6165,255x64,0,0,16
+window	9	0	1	:*	6166,255x64,0,0,17
+window	curric	0	0	: 	4d9b,255x64,0,0{124x64,0,0[124x31,0,0,18,124x32,0,32,19],130x64,125,0[130x21,125,0,20,130x12,125,22,21,130x12,125,35,22,130x16,125,48,23]}
+window	curric	1	0	:#	8949,255x64,0,0{126x64,0,0,24,128x64,127,0,25}
+window	curric	2	0	: 	917b,255x64,0,0{128x64,0,0,26,126x64,129,0,27}
+window	curric	3	1	:*	e167,255x64,0,0,28
+window	curric	4	0	: 	e168,255x64,0,0,29
+window	curric	5	0	:#	6160,255x64,0,0,30
+window	curric	6	0	: 	6161,255x64,0,0,31
+window	curric	7	0	: 	6162,255x64,0,0,32
+window	curric	8	0	: 	6163,255x64,0,0,33
+window	curric	9	0	:-	6165,255x64,0,0,35
+state	curric	curric
