@@ -78,6 +78,7 @@ Plugin 'scrooloose/nerdtree'
 
 " Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'shime/vim-livedown'
+Plugin 'elixir-lang/vim-elixir'
 
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'tpope/vim-vividchalk'
@@ -397,3 +398,11 @@ nnoremap <leader>cs dWwi, <ESC>pxhx
 " format text
 nnoremap Q gq
 nnoremap QQ gqq
+
+autocmd BufNewFile,BufRead *.rkt let g:AutoPairs {'(':')', '[':']', '{':'}',"'":"'",'"':'"', '`':'`'}
+
+" if FileType scheme
+"   let g:AutoPairs {'(':')', '[':']', '{':'}',"'":"'",'"':'"', '`':'`'}
+" endif
+"
+
