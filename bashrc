@@ -34,6 +34,7 @@ export PATH="$PATH:~/bin"
 export PATH="/usr/local/heroku/bin:$PATH"
 export PATH="$PATH:/usr/local/bin/git"
 export PATH=$PATH:/Applications/Racket\ v6.2/bin
+export PATH=~/.npm-global/bin:$PATH
 alias emacs="/usr/local/Cellar/emacs/24.5/Emacs.app/Contents/MacOS/Emacs -nw"
 
 # export WORKON_HOME=$HOME/.virtualenvs
@@ -60,3 +61,6 @@ alias hcustag='heroku run rails c -a custag'
 alias hadaprod='heroku run rails c -a adaprod'
 alias hadastag='heroku run rails c -a adastag'
 alias rrw='echo -ne "\033]11;#800000\007"; rake resque:work'
+
+
+mkdircd(){ mkdir "$1" && cd "$1" ; } 
