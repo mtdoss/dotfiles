@@ -14,8 +14,8 @@
     "rules": {
         "strict": 0,
         "quotes": 0,
-        "no-unused-vars": 0,
-        "camelcase": 0,
-        "no-underscore-dangle": 0
+        "no-unused-vars": 1,
+        "camelcase": 1,
+        "no-underscore-dangle": 1
     }
 }
