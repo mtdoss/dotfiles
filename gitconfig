@@ -18,6 +18,7 @@
 
 [core]
   editor = vim
+	excludesfile = /Users/markdoss/.gitignore_global
 
 [diff]
   external = git_diff_wrapper

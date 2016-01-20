@@ -85,6 +85,12 @@ Plugin 'tpope/vim-vividchalk'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'chriskempson/base16-vim'
 
+" React stuff
+
+" required for vim-jsx
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
@@ -270,9 +276,13 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_aggregate_errors = 1
 
 let g:syntastic_ruby_rubocop_exec  =  '/Users/markdoss/.rbenv/shims/rubocop'
-" let g:syntastic_ruby_checkers = ['jruby', 'macruby', 'mri', 'reek', 'rubocop', 'rubylint']
-" let g:syntastic_ruby_checkers = ['rubylint']
-" let g:syntastic_ruby_rubocop_exec  = '/Users/markdoss/.rbenv/shims/ruby /Users/markdoss/.rbenv/shims/rubocop'
+let g:syntastic_ruby_checkers = ['jruby', 'macruby', 'mri', 'reek', 'rubocop', 'rubylint']
+let g:syntastic_ruby_checkers = ['rubylint']
+let g:syntastic_ruby_rubocop_exec  = '/Users/markdoss/.rbenv/shims/ruby /Users/markdoss/.rbenv/shims/rubocop'
+
+
+" use vim-javascript for this
+let g:syntastic_javascript_checkers = []
 
 " " moves backups to /tmp directory
 set backup
@@ -435,3 +445,5 @@ autocmd BufNewFile,BufRead *.rkt let g:AutoPairs {'(':')', '[':']', '{':'}',"'":
 
 " Fugitive
 map <leader>gb :Gblame<CR>
+set ignorecase
+set smartcase
