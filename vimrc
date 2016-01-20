@@ -87,6 +87,7 @@ Plugin 'chriskempson/base16-vim'
 
 " React stuff
 
+" NOTE: now using https://github.com/jaxbot/syntastic-react
 " required for vim-jsx
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
@@ -146,7 +147,8 @@ highlight CursorLine ctermbg=235
 
 filetype indent on " load filetype-specific indent files (don't have these yet)
 
-set wildmenu   " visual autocomplete for command menu - shows matches you cycle through
+" set wildmenu   " visual autocomplete for command menu - shows matches you
+" cycle through ???
 
 set lazyredraw  " redraw only when need to - means faster macros
 
@@ -227,9 +229,9 @@ let g:ctrlp_map = '<leader>t'
 let g:ctrlp_open_new_file = 'r' " newly created file opened in same window
 " Won't work if using Ag
 let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
-  \ 'file': '\v\.(exe|so|dll)$',
-  \ }
+      \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+      \ 'file': '\v\.(exe|so|dll)$',
+      \ }
 
 
 " Automatically clear cache upon creation of file
@@ -276,13 +278,13 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_aggregate_errors = 1
 
 let g:syntastic_ruby_rubocop_exec  =  '/Users/markdoss/.rbenv/shims/rubocop'
-let g:syntastic_ruby_checkers = ['jruby', 'macruby', 'mri', 'reek', 'rubocop', 'rubylint']
-let g:syntastic_ruby_checkers = ['rubylint']
-let g:syntastic_ruby_rubocop_exec  = '/Users/markdoss/.rbenv/shims/ruby /Users/markdoss/.rbenv/shims/rubocop'
+" let g:syntastic_ruby_checkers = ['jruby', 'macruby', 'mri', 'reek', 'rubocop', 'rubylint']
+" let g:syntastic_ruby_checkers = ['rubylint']
+" let g:syntastic_ruby_rubocop_exec  = '/Users/markdoss/.rbenv/shims/ruby /Users/markdoss/.rbenv/shims/rubocop'
 
 
 " use vim-javascript for this
-let g:syntastic_javascript_checkers = []
+let g:syntastic_javascript_checkers = ['eslint']
 
 " " moves backups to /tmp directory
 set backup
@@ -405,7 +407,6 @@ if &diff
   nnoremap N [czz
   set nocursorline
 endif
-
 " Easy align
 " Start interactive EasyAlign in visual mode (e.g. vip<Enter>)
 vmap <Enter> <Plug>(EasyAlign)
@@ -432,6 +433,8 @@ map <C-q> <C-y>
 
 " comma swap
 nnoremap <leader>cs dWwi, <ESC>pxhx
+
+
 " format text
 nnoremap Q gq
 nnoremap QQ gqq
@@ -447,3 +450,5 @@ autocmd BufNewFile,BufRead *.rkt let g:AutoPairs {'(':')', '[':']', '{':'}',"'":
 map <leader>gb :Gblame<CR>
 set ignorecase
 set smartcase
+"
+set autoread
