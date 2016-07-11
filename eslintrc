@@ -20,5 +20,8 @@
         "no-undef": 1,
         "semi": 1,
         "no-unreachable": 1
+    },
+    "globals": {
+      "$": false
     }
 }

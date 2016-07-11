@@ -91,6 +91,7 @@ Plugin 'chriskempson/base16-vim'
 " required for vim-jsx
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
+Plugin 'justinj/vim-react-snippets'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -206,6 +207,7 @@ endif
 " endif
 " jk is escape
 inoremap jk <esc>
+inoremap JK <esc>
 
 " toggle gundo: shows undo tree
 
@@ -452,3 +454,19 @@ set ignorecase
 set smartcase
 "
 set autoread
+
+
+
+
+
+" OCAML:
+" merlin stuff
+"  let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
+"      execute "set rtp+=" . g:opamshare . "/merlin/vim"
+"
+"    Also run the following line in vim to index the documentation:
+"      :execute "helptags " . g:opamshare . "/merlin/vim/doc"
+"for ocp-indent
+set rtp^="/Users/markdoss/.opam/system/share/ocp-indent/vim"
+" https://github.com/realworldocaml/book/wiki/Installation-Instructions
+" autocmd FileType ocaml source substitute(system('opam config var share'), '\n$', '', '''') . "/typerex/ocp-indent/ocp-indent.vim"
